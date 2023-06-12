@@ -1,18 +1,18 @@
+'use client';
+import { useState } from 'react';
 import styles from './page.module.css';
 
 export default function Home() {
+  const [name, setName] = useState('Pratham');
+
+  const clickHandler = () => {
+    setName('Gupta');
+  };
+
   return (
     <main className={styles.main}>
-      <h1>Home Page</h1>
-      <User name={'Pratham'} />
+      <h1>Events, Function and State - {name}</h1>
+      <button onClick={clickHandler}>Click Me</button>
     </main>
   );
 }
-
-const User = (props) => {
-  return (
-    <div>
-      <h1>My name is {props.name}</h1>
-    </div>
-  );
-};
