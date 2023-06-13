@@ -9,7 +9,7 @@ export default function Home() {
   };
   return (
     <main>
-      <h1>Linking and Navigation</h1>
+      <h1>Nested Routing</h1>
       <Link href='./login'>Go to Login Page</Link>
       <br />
       <Link href='./about'>Go to About Page</Link>
