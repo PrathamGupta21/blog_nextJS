@@ -9,14 +9,14 @@ export default function Home() {
   };
   return (
     <main>
-      <h1>Common Layout</h1>
+      <h1>Dynamic Routing</h1>
       <Link href='./login'>Go to Login Page</Link>
       <br />
       <Link href='./about'>Go to About Page</Link>
       <br />
-      <button onClick={() => navigate('/login')}>Go to Login Page</button>
-      <br />
-      <button onClick={() => navigate('/about')}>Go to About Page</button>
+      <button onClick={() => navigate('/students')}>
+        Go to Students List Page
+      </button>
     </main>
   );
 }
