@@ -1,0 +1,18 @@
+.login-menu {
+    display: flex;
+}
+
+.login-menu li {
+    margin: 25px;
+    list-style-type: none;
+}
+
+.login-menu h4 {
+    color: rgb(226, 80, 80);
+}
+
+.heading {
+    color: aqua;
+    text-align: center;
+    margin: 50px;
+}
